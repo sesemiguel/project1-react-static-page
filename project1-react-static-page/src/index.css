@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-items > li {
+  padding: 20px;
+}
+
+.react-logo {
+  width: 64px;
+  padding: 10px;
+}
