@@ -2,19 +2,74 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-items {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-items > li {
-  padding: 20px;
+  background-color: #21222A;
 }
 
 .react-logo {
   width: 64px;
   padding: 10px;
+}
+
+.course-name {
+  padding-right: 20px;
+}
+
+.logo-text-comb {
+  display: flex;
+}
+
+.logo-text-comb > h1 {
+  padding-top: 8px;
+  color:#61DAFB;
+  font-weight: 700;
+}
+
+.course-name {
+  color:#DEEBF8;
+  font-weight: 600;
+}
+
+html {
+  font-family: 'Inter';
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #282D35;
+}
+
+.main-content {
+  margin: 20px;
+  background-color: #282D35;
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.main-content > h1 {
+  font-weight: 900;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 15px;
+}
+
+.main-content > ul {
+  margin: 0;
+  margin-left: 15px;
+  padding-bottom: 15px;
+}
+
+.main-content > ul > li {
+  padding: 5px;
+}
+
+footer {
+  background-color: #282D35;
+  color: #FFFFFF;
+  padding: 15px;
+  position: relative;
 }
